@@ -1,5 +1,5 @@
 .head {
-    color: #ffffff;
+    color: var(--background-blanco);
 
     width: 100%;
 
@@ -9,10 +9,10 @@
     flex-direction: column;
     align-items: center;
 
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
 
-    border-bottom: 1px solid #103d4a;
+    border-bottom: 1px solid var(--border-cabecera-mobile);
 
     position: absolute;
 }
@@ -30,7 +30,7 @@
 
     display: inline-block;
 
-    margin-right: 0.7rem;
-    margin-bottom: 0.7rem;
-    margin-left: 0.7rem;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .7rem;
 }
